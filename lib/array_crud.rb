@@ -23,15 +23,15 @@ def remove_element_from_start_of_array(array)
   array.shift
 end	
 
-def retreive_element_from_index(array, index_number)
+def retrieve_element_from_index(array, index_number)
   array[index_number]
 end	
 
-def retreive_first_element_from_array(array)
+def retrieve_first_element_from_array(array)
   array[0]
 end	
 
-def retreive_last_element_from_array(array)
+def retrieve_last_element_from_array(array)
   x = array.count
   array[x-1]
 end 
